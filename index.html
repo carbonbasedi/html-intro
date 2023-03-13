@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css"> 
+    <title>Sign up form</title>
+</head>
+<body>
+    <form style="border:1px solid #ccc">
+    <div class="box">
+        <h1 style="text-align: center;">Sign Up</h1>
+        <p style="text-align: center;">Please fill in this form to create an account</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter email" name="email" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <label for="password-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="password-repeat" required>
+
+        <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px;"> Remember me
+        </label>
+
+        <p style="text-align: center;">By creating an account you agree to our <a href="#" style="color:cadetblue">Terms & Privacy</a>.</p>
+
+        <div class="clearfix">
+            <button type="button" class="cancelbutton">Cancel</button>
+            <button type="submit" class="signupbutton">Sign Up</button>
+        </div>
+        <div class="links">
+            <p style="text-align: center;">Or sign up with</p>
+            <button type="button" class="login-with-google-btn" > Google
+            <button type="button" class="login-with-facebook-btn" > Facebook
+            <button type="button" class="login-with-apple-btn" > Apple ID
+              </button>
+        </div>
+    </div>
+    </form>
+</body>
